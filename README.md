@@ -3,10 +3,11 @@
 ## Description
 A website where we can explore the types of pizza also could check its nutritional value, then order it.
 
-## Libraries and Frameworks Used
+## Libraries and Frameworks, Hooks Used
 - **JSX**: Used for structuring the content and adding behavior to the structure.
 - **Tailwind CSS**: Responsible for styling and visual presentation, ensuring an appealing user interface.
 - **RAPID API**: Used to retrieve Pizza information and details for display within the application.
+- **HOOKS USED**:useReducer, useeffect, useState
 
 ## Features
 - **Review Pizza Details**: Users can review all nutritional details.
