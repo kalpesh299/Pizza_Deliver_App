@@ -4,6 +4,7 @@
 A website where we can explore the types of pizza also could check its nutritional value, then order it.
 
 ## Libraries and Frameworks, Hooks Used
+- **REACT JS**: Used React.js library to build webpage
 - **JSX**: Used for structuring the content and adding behavior to the structure.
 - **Tailwind CSS**: Responsible for styling and visual presentation, ensuring an appealing user interface.
 - **RAPID API**: Used to retrieve Pizza information and details for display within the application.
