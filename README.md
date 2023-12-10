@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Pizza Order Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A website where we can explore the types of pizza also could check its nutritional value, then order it.
 
-## Available Scripts
+## Libraries and Frameworks Used
+- **JSX**: Used for structuring the content and adding behavior to the structure.
+- **Tailwind CSS**: Responsible for styling and visual presentation, ensuring an appealing user interface.
+- **RAPID API**: Used to retrieve Pizza information and details for display within the application.
 
-In the project directory, you can run:
+## Features
+- **Review Pizza Details**: Users can review all nutritional details.
+- **Order Now**: Can order the pizza with one click within the same window of the browser.
+- **Easy Navigation**: We have used React-router-dom helps to make website navigate within page.
 
-### `npm start`
+## Usage
+### Review and Order Pizza:
+. A website where we can explore the types of pizza also could check its nutritional value, then order it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Viewing Pizza Details:
+To view Pizza details, click on the quick view button. The app will display the information about the pizza.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Navigating Back:
+To navigate back to the Home page, click on the "Home" link.
 
-### `npm test`
+## Hosted Link
+https://pizza-delivery-app-five.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Sreenshots
+- First Page
+  ![image](https://github.com/kalpesh299/Pizza_Deliver_App/assets/72344646/184f8402-6646-4058-916f-f1a82e4c6fce)
 
-### `npm run build`
+-All pizzas Component 
+ ![image](https://github.com/kalpesh299/Pizza_Deliver_App/assets/72344646/70c89b07-1ca8-4737-ba0a-cf50bb9238f9)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-When Clik on the quick view
+ ![image](https://github.com/kalpesh299/Pizza_Deliver_App/assets/72344646/93e87678-057a-4939-926c-69da91639bb6)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-Order Now or Add to the cart page 
+ ![image](https://github.com/kalpesh299/Pizza_Deliver_App/assets/72344646/ff977be0-0d0f-47f7-9a8a-368dffb3b436)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-After the Order successfully placed
+ ![image](https://github.com/kalpesh299/Pizza_Deliver_App/assets/72344646/bf80d63d-0fa4-4b67-9249-4f1fea3d31ed)
 
-### `npm run eject`
+-Home page
+![image](https://github.com/kalpesh299/Pizza_Deliver_App/assets/72344646/f2db713e-df0e-4e87-b35c-3b1238d7eba5)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
