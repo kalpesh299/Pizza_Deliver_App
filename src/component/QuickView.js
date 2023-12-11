@@ -8,13 +8,13 @@ export const QuickView = () => {
   // console.log(state.quickviwedata[0].linkImagen);
   return (
     <div className="absolute w-full h-screen flex justify-center items-center qv " >
-              <div className='md:w-8/12 w-2/4 h-2/4 md:h-2/3 border-2 border-black bg-white flex p-6'>
+              <div className='md:w-8/12 w-full h-full md:h-2/3 rounded-lg shadow-lg bg-white flex md:flex-row flex-col p-6'>
                     <div className='w-2/4 h-full flex items-center justify-center rounded-xl  bg-gray-100'>
-                    <img src={state.quickviwedata[0].linkImagen} className='w-3/4 h-3/4 rounded-lg'/>
+                    <img src={state.quickviwedata[0].linkImagen} className='md:w-3/4 md:h-3/4 w-32  rounded-lg'/>
                    
                     </div>
                     <div>
-                      <h1 className='text-end font-bold text-2xl text-red-500 cursor-pointer ' onClick={()=>toggleQuickview(dispatch)}>X</h1>
+                      <h1 className='text-end font-bold text-2xl text-red-500 cursor-pointer hover:text-black ' onClick={()=>toggleQuickview(dispatch)}>X</h1>
                       <h1 className='pl-2 font-bold text-2xl'>{state.quickviwedata[0].nombre}</h1>
                       <h2 className='p-2'>⭐⭐⭐⭐</h2>
                       <h1 className='p-2 font-bold text-lg'>₹{state.quickviwedata[0].precio}</h1>
@@ -26,7 +26,7 @@ export const QuickView = () => {
                         <p className='pl-2 text-gray-500'>Fats_ _ _ _ _ _ _ _ _ _ _ _ _<span className='text-red-500 font-bold'>50g</span></p>
                         
                         <Link to={'/ordernow'}>
-                        <button className='p-2 ml-2 mt-10 bg-red-500 text-white font-bold'>ADD TO CART</button>
+                        <button className='p-2 ml-2 mt-10 bg-red-500 text-white font-bold rounded-md hover:text-red-600 hover:bg-white'>ADD TO CART</button>
                         </Link>
                     </div>
               </div>

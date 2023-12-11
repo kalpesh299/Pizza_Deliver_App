@@ -7,7 +7,7 @@ export const PizzaCard = ({pizza}) => {
   const{state,dispatch}=usePizzaContext();
 const[isShown,setIsShows]=useState(false);
 
-console.log(state.quickviwedata);
+// console.log(state.quickviwedata);
 
   return (
 
@@ -30,7 +30,7 @@ console.log(state.quickviwedata);
         <h2 className='md:text-2xl text-xs text-center font-bold font-mono'>{pizza.precio>250?"⭐⭐⭐⭐":"⭐⭐⭐"}</h2>
         <h3 className='md:text-2xl text-sm text-center font-bold font-mono'>₹{pizza.precio}</h3>
         <div className='flex justify-evenly '>
-         <Link to={"/ordernow"}> <button className='bg-orange-600 p-3 rounded-md mr-2'>Add To Cart</button></Link>
+         <Link to={"/ordernow"}> <button className='bg-orange-600 md:p-3  rounded-md mr-2'>Add To Cart</button></Link>
         <button className='bg-gray-300 rounded-md  p-3' onClick={()=>toggleQuickview(dispatch,pizza)}>Quick View</button>
         </div>
             </>
